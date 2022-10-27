@@ -1,9 +1,10 @@
 ```` C++
 // Hér er tillaga sem ég mæli með að þú prófir:
+// ef hann er að beygja illa þá prófa Giro sem þú færð frá mér
 #include "vex.h"
 
 using namespace vex;
-int turn_list[14]={90,90,90,90,90,90,90,90,90,90,90,90,90,90};
+int turn_list[14]={90,-90,-90,90,90,-90,90,90,-90,90,90,-90,-90,90};
 int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
   int distance = 500;
