@@ -1,4 +1,5 @@
-H+er er tillaga sem +eg mæli með að þú prófir:
+```` C++
+// Hér er tillaga sem ég mæli með að þú prófir:
 #include "vex.h"
 
 using namespace vex;
@@ -15,3 +16,4 @@ int main() {
     }
   Drivetrain.driveFor(forward, distance, mm);
 }
+```
