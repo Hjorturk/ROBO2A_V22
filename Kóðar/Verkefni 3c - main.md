@@ -22,9 +22,9 @@ int main() {
               Drivetrain.stop();
               } else if(Vision6.largestObject.exists){
           Brain.Screen.print(Vision6.largestObject.width);
-          if(Vision6.largestObject.width < 50){
+          if(Vision6.largestObject.width < 90){
             Drivetrain.drive(forward);
-          } else if(Vision6.largestObject.width > 50){
+          } else if(Vision6.largestObject.width >= 100){
             Drivetrain.drive(reverse);
           } else if(Vision6.largestObject.centerX > CENTER_FOV + OFFSET_X){
             Drivetrain.turn(right);
